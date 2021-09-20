@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+    
+    
+}
+
+
+img{
+    padding: 0;
+    margin: 0px;
+    position: fixed;
+    
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    
+    
+}
+
+.navbar ol{
+    list-style-type: none;
+    display:flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 400px;
+   
+}
+#box1{
+    background-color:rgb(29, 37, 158);
+    margin-left: 500px;
+    height: 150px;
+    width: 300px;
+    
+}
+ #box2{
+    background-color:rgb(12, 176, 182);
+    margin-left: 0px;
+    height: 150px;
+    width: 300px;
+}
+#box3{
+    background-color:rgb(109, 36, 7);
+    margin-left: 0px;
+    height: 150px;
+    width: 300px;
+}
+
+#box4{
+    background-color:rgb(105, 11, 42);
+    margin-left: 0px;
+    height: 150px;
+    width: 300px;
+}
+
+.dark-blue{
+    background-color: rgb(36, 4, 58);
+    height: 150px;
+    
+} 
+ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 5rem;
+    padding: 3px 3px 3px 3px;
+    
+}
+ol li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-control{
+    border-radius: 15px;
+
+}  
+.color{
+    border-radius: 10px;
+    border: solid black;
+    height: 500px;
+    width: 1000px;
+    margin: 60px;
+    
+}   
+th{
+    background-color: rgb(2, 37, 37);
+    font-size: 30px;
+    color: darkgrey;
+}
+td{
+    background-color: rgb(190, 221, 190);
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    
+}
+td:hover{
+    background-color: dodgerblue;
+}
+.inp label{
+    display: block;
+ 
+}
+.form-control{
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+}
+

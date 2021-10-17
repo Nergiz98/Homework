@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAIe,MAJT,CACF,UAAU,CACN,KAAK,CACF,QAAQ,CACJ,EAAE,CAAA;EAEE,KAAK,EAAE,eAAe;CACzB;;AAPhB,AAUe,MAVT,CACF,UAAU,CACN,KAAK,CAOF,WAAW,CACP,KAAK,CAAA;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAaf",
+    "sources": [
+        "sec-1.scss"
+    ],
+    "names": [],
+    "file": "sec-1.css"
+}

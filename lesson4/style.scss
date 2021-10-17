@@ -1,0 +1,74 @@
+@import "reset";
+.full-body{
+    padding: 0;
+    margin:0;
+    height:100%;
+    .prewiev-header{
+        background-color: #262626;
+        height: 60px;
+        font-size: 12px;
+        .envato-logo{
+            float: left;
+            padding: 0 20px;
+                 a{
+                    display: inline-block;
+                    position: absolute;
+                    top: 20px;
+                    text-indent: -9999px;
+                    height: 25px;
+                    width: 155px;
+                    background-image: url("./envato.png");
+                    background-size: 140px 18px;
+                }
+        }   
+    }
+}
+.prewiev-actions{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 100px;
+    height: 40px;
+   
+    .prewiev-buy{
+       background-color: rgb(110, 160, 9);
+       padding: 8px;
+       align-items: center;
+       border: 1px solid rgb(110, 160, 9);
+       border-radius: 5px;
+       text-align: center;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 15px;
+          
+          
+        }
+    }
+}
+.header{
+    position: relative;
+    background-color: #ffe9e9;
+    .topbar{
+        position: relative;
+        background-color: #1e1e2a;
+        .container{
+         max-width: 1170px;
+         padding-left: 0;
+         padding-right: 0;
+         display: flex;
+            .topbar-inner{
+                
+                .social{
+                    ul{
+                        li{
+                            a{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

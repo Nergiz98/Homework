@@ -1,0 +1,242 @@
+.sec-1 {
+  width: 100%;
+}
+
+.sec-1 .container {
+  width: 3000px;
+}
+
+.sec-1 .container .box1 {
+  position: relative;
+}
+
+.sec-1 .container .box1 .top-box h3 {
+  color: #fff !important;
+}
+
+.sec-1 .container .box1 .bottom-box {
+  background-color: #fff !important;
+}
+
+.sec-1 .container .box1 .bottom-box .box1 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: translate(50px, -50px);
+          transform: translate(50px, -50px);
+}
+
+.sec-1 .container .box1 .bottom-box .box1 .icon i {
+  margin-top: 20px;
+  color: #2a2ac9 !important;
+}
+
+.sec-1 .container .box1 .bottom-box .box1 .p p {
+  color: #2a2ac9 !important;
+}
+
+.sec-1 .container .box1 .bottom-box .box2 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: translate(200px, -50px);
+          transform: translate(200px, -50px);
+}
+
+.sec-1 .container .box1 .bottom-box .box2 .icon i {
+  color: #032903;
+  margin-top: 20px;
+}
+
+.sec-1 .container .box1 .bottom-box .box2 .p p {
+  color: #032903;
+}
+
+.sec-1 .container .box1 .bottom-box .box3 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: translate(50px, 80px);
+          transform: translate(50px, 80px);
+}
+
+.sec-1 .container .box1 .bottom-box .box3 .icon i {
+  margin-top: 20px;
+  color: yellow;
+}
+
+.sec-1 .container .box1 .bottom-box .box3 .p p {
+  color: yellow;
+}
+
+.sec-1 .container .box1 .bottom-box .box4 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: translate(200px, 80px);
+          transform: translate(200px, 80px);
+}
+
+.sec-1 .container .box1 .bottom-box .box4 .icon i {
+  margin-top: 20px;
+  color: #444343;
+}
+
+.sec-1 .container .box1 .bottom-box .box4 .p p {
+  color: #444343;
+}
+
+.sec-1 .container .box2 {
+  width: 450px;
+  height: 500px;
+  background-color: #fff;
+}
+
+.sec-1 .container .box2 .main .content {
+  margin-bottom: 20px;
+}
+
+.sec-1 .container .box2 .main .content p {
+  color: #A1A5b7;
+}
+
+.sec-1 .container .box2 .main .content2 .out {
+  color: #A1A5b7;
+}
+
+.sec-1 .container .box2 .main .content2 .out::before {
+  content: "08:42";
+  margin-right: 10px;
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .aeol {
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .aeol::before {
+  content: "10:00";
+  margin-right: 10px;
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .make {
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .make::before {
+  content: "14:37";
+  margin-right: 10px;
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .make span {
+  color: #009EF7;
+}
+
+.sec-1 .container .box2 .main .content2 .include {
+  color: #A1A5b7;
+}
+
+.sec-1 .container .box2 .main .content2 .include::before {
+  content: "14:37";
+  margin-right: 10px;
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .new {
+  color: #3F4254;
+}
+
+.sec-1 .container .box2 .main .content2 .new::before {
+  content: "21:03";
+  margin-right: 10px;
+  color: #3f4254;
+}
+
+.sec-1 .container .box2 .main .content2 .new span {
+  color: #009EF7;
+}
+
+.sec-1 .container .box3 {
+  background-color: #fff;
+  width: 450px;
+  height: 500px;
+}
+
+.sec-1 .container .box3 .main img {
+  margin-top: 2px;
+}
+
+.sec-1 .container .box3 .main .left1 p {
+  color: #A1A5b7;
+}
+
+.sec-1 .container .box3 .main img {
+  width: 400px;
+  height: 180px;
+}
+
+.sec-1 .container .box3 .main .box-top .left p {
+  color: #A1A5b7;
+}
+
+.sec-1 .container .box3 .main .box-top .right p {
+  color: #009EF7;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+header .navbar {
+  background-color: #fff !important;
+}
+
+header .navbar .container-fluid .icons {
+  width: 130px;
+  margin-right: 40px;
+}
+
+header .navbar .container-fluid .icons ul li {
+  list-style-type: none;
+}
+
+header .navbar .container-fluid .icons ul li i {
+  margin-right: 20px;
+}
+
+header .navbar .container-fluid .image img {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+header .navbar .container-fluid i {
+  color: #5e6278c9;
+  font-weight: 20px;
+}
+
+header .navbar .container-fluid i:hover {
+  color: #009EF7;
+  background-color: #f5f8fae3;
+}
+
+header .navbar .container-fluid .collapse ul li .main {
+  color: #009EF7;
+  padding: 10px 13px;
+  background-color: #F5F8FACC;
+  margin-right: 3px;
+}
+
+header .navbar .container-fluid .collapse ul li a {
+  color: #5E6278;
+  margin-right: 4px;
+}
+
+header .navbar .container-fluid .collapse ul li a:hover {
+  color: #009EF7;
+  background-color: #F5F8FACC;
+}
+/*# sourceMappingURL=style.css.map */

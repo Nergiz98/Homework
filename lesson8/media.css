@@ -1,0 +1,312 @@
+@media only screen and (max-width: 1190px) {
+  body {
+    background-color: #b40c0c;
+  }
+  body header {
+    width: 200px;
+    background-color: black;
+    padding: 20px 30px;
+  }
+  body header nav {
+    width: 100%;
+  }
+  body header nav .container {
+    width: 100%;
+    height: 77px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body header nav .container .img {
+    margin-left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header nav .container .img img {
+    text-align: center;
+  }
+  body header nav .container .nav {
+    width: 30%;
+    margin-top: 30px;
+  }
+  body header nav .container .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .container .nav ul li {
+    color: #9F9F9F;
+    font-family: "red hot display" sans-serif;
+    font-size: 18px;
+  }
+  body header nav .container .search-img {
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body header nav .container .search-img .form form .button button {
+    background-color: #242424;
+    border-radius: 15px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header nav .container .search-img .form form .button button i {
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  body header nav .container .search-img .form form .button button input {
+    outline: none;
+    background-color: #242424;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: left;
+  }
+  body header nav .container .ul-li {
+    width: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body header nav .container .ul-li img {
+    margin-right: 5px;
+  }
+  body header nav .container .ul-li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header nav .container .ul-li ul li {
+    color: #9F9F9F;
+    margin-top: 13px;
+    margin-left: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  body .section1 .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .section1 .image img {
+    width: 1300px;
+    height: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  body .section1 .box {
+    -webkit-transform: translate(700px, -200px);
+            transform: translate(700px, -200px);
+    width: 570px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+  }
+  body .section1 .box .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30px;
+  }
+  body .section1 .box .content a {
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    text-decoration: none;
+  }
+  body .section1 .box .content a:hover {
+    text-decoration: underline;
+  }
+  body .section1 .box .content span {
+    margin-top: 20px;
+    font-size: 15px;
+    color: brown;
+    font-family: sans-serif;
+  }
+  body .section1 .box .aouthor {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+  }
+  body .section1 .box .aouthor .img img {
+    border-radius: 50%;
+  }
+  body .section1 .box .aouthor .content h6 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+  body .section1 .box .aouthor .content ul {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .section1 .box .aouthor .content ul li {
+    color: #9F9F9F;
+    margin-left: 5px;
+  }
+  body .section1 .box .icon ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .section1 .box .icon ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body .section1 .box .icon ul li i {
+    color: #9F9F9F;
+  }
+  .section2 {
+    width: 100%;
+  }
+  .section2 .More-feature-full {
+    width: 100%;
+  }
+  .section2 .More-feature-full .more-feature {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section2 .More-feature-full .more-feature .box {
+    margin-left: 60px;
+    width: 650px;
+    height: 270px;
+    border: 1px solid black;
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section2 .More-feature-full .more-feature .box .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30px;
+  }
+  .section2 .More-feature-full .more-feature .box .content a {
+    margin-top: 20px;
+    font-size: 15px;
+    color: brown;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .section2 .More-feature-full .more-feature .box .content h4 a {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .section2 .More-feature-full .more-feature .box .content h4 a:hover {
+    text-decoration: underline;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat .img img {
+    border-radius: 50%;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat .content ul {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat .content ul li {
+    color: #9F9F9F;
+    margin-left: 0px;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat .content h6 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 10px;
+  }
+  .section2 .More-feature-full .more-feature .box .content .Ismat .content h6:hover {
+    color: blue;
+  }
+  .section2 .More-feature-full .more-feature .box .image {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  .section2 .More-feature-full .more-feature .box .image img {
+    border-radius: 50%;
+  }
+}
+/*# sourceMappingURL=media.css.map */

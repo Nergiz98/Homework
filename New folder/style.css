@@ -1,0 +1,14 @@
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

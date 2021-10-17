@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  body{
+    overflow-x: hidden;
+  }
+</style>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light fixed-top ">
+        <div class=" container p-3 d-flex justify-content-between align-items-center">
+         <div class="image"><a href="#"><img src="./image/logo.png" alt="" style="width: 169px;height: 44px;"></a></div> 
+          
+          <div class="collapse navbar-collapse  container-xl " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Home
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Home version one</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Home version two</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Home version three</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Home version four</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Find jobs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Browse Jobs</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Browse Companies</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Jons Detail Pages</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Company Profile Detail</a></li>
+                    </ul>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  User Panel
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Manages Jobs Posts</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Manages Jobs</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Manages Resume</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Bookmarks Jobs</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Reviews</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">My Profile</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">User Elements</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Icons</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">FAQ Pages</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">404 Pages</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Blog List Right Sidebar</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Blog List Left Sidebar</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Blog Detail Right Sidebar</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Blog Detail Left Sidebar</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+           <div class="john-sign d-flex justify-content-between align-items-center ">
+               <div class="sign">
+                   <a href="#" class="text-decoration-none  rounded-pill">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Sign in</span>
+                   </a>
+               </div>
+               <div class="John d-flex justify-content-between align-items-center">
+                   <div class="image">
+                       <img src="./image/user_small_1.jpg" alt="" class=" rounded-circle" style="width: 46px;height: 46px;">
+                   </div>
+                   <div class="cntnt">
+                       <h6>Hi,John</h6> 
+                   </div>
+               </div>
+
+           </div>
+          </div>
+        </div>
+      </nav>
+     <section class="nearbay">
+         <div class="containerr">
+            <div class="container">
+             <div class="content text-center p-4 ">
+                 <h3>Find Nearby Jobs <span> Web Designer.</span></h3>
+                 <p>It is a Long Established Fact That a Reader Will be Distracted by The Readable.</p>
+             </div>
+             <div class="main-form d-flex justify-content-around  shadow-sm align-items-center text-center rounded-pill" >
+                 <div class="search ">
+                    <i class="fas fa-search "></i>
+                    <span> Search Jobs Keywards...</span>
+                 </div>
+                 <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select Location
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Bulgaria</a></li>
+                      <li><a class="dropdown-item" href="#">Germany</a></li>
+                      <li><a class="dropdown-item" href="#">Azerbaijan</a></li>
+                      <li><a class="dropdown-item" href="#">Italy</a></li>
+                      <li><a class="dropdown-item" href="#">Canada</a></li>
+                      <li><a class="dropdown-item" href="#">Grenada</a></li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      All Categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                      <li><a class="dropdown-item" href="#">Data Analytics</a></li>
+                      <li><a class="dropdown-item" href="#">Web Designer</a></li>
+                      <li><a class="dropdown-item" href="#">Sofware Developer</a></li>
+
+                    </ul>
+                  </div>
+                  <div class="sign">
+                    <a href="#" class="text-decoration-none  rounded-pill">
+                        <i class="fas fa-search"></i>
+                        <span> Search Jobs</span>
+                     
+                    </a>
+                   </div>
+              </div>
+              <div class="cardd d-flex flex-row justify-content-between align-items-center">
+                  <div class="box1 d-flex align-items-center p-4 rounded">
+                      <div class="icon">
+                        <i class="fas fa-briefcase"></i>
+                      </div>
+                      <div class="cntnt">
+                          <h2>18,955</h2>
+                          <span>Live Jobs Posted </span>
+                      </div>
+                  </div>
+                <div class="box1 d-flex align-items-center  p-4 rounded">
+                    <div class="icon">
+                        <i class="far fa-envelope-open"></i>
+                    </div>
+                    <div class="cntnt">
+                        <h2>11,088</h2>
+                        <span>Jobs Candidate</span>
+                    </div>
+                </div>
+                <div class="box1 d-flex align-items-center  p-4 rounded ">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="cntnt">
+                        <h2>18,955</h2>
+                        <span>Live Jobs Posted </span>
+                    </div>
+                </div>
+            </div>
+            
+
+             </div>
+         </div>
+     </section>
+     <section class="trending ">
+         <div class="containerr">
+             <div class="container mt-md-5">
+                 <div class="content text-center">
+                     <a class="rounded text-decoration-none">Jobs Categories</a>
+                     <h2>Top Trending Categories</h2>
+                     <p>Lorem Ipsum is simply dummy text printing and type setting industry Lorem Ipsum been industry <br> standard dummy text ever since when unknown printer took a galley.</p>
+                 </div>
+                 <div class="cards d-flex justify-content-center mt-4 align-items-center">
+                 <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-graduation-cap d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-chart-line d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-users d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-phone d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-cutlery d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-building d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-users d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <div class="icon ">
+                        <i class="fas fa-bullhorn d-flex align-items-center justify-content-center" ></i>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title text-center">Design,Art & Multimedia</h3>
+                      <p class="card-text d-flex align-items-center justify-content-center rounded">8,188 jobs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="a"><a href="#" class="rounded  text-decoration-none ">Wiew All Categories</a></div>
+                  
+             </div>
+         </div>
+     </section>
+     <section class="end">
+         <div class="containerr">
+                <div class="container mt-md-5 ">
+                    <div class="content text-center">
+                        <a class="rounded text-decoration-none">Latest Jobs Posts</a>
+                        <h2>Top Trending Categories</h2>
+                        <p>Lorem Ipsum is simply dummy text printing and type setting industry Lorem Ipsum been industry <br> standard dummy text ever since when unknown printer took a galley.</p>
+                    </div>
+                <div class="cards d-flex flex-column justify-content-between align-items-center">
+                    <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_1.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content fle">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                      <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_2.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                      <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_3.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                      <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_4.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                      <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_5.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                      <div class="card rounded" style="width:1178px;height: 146px;">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                         <div class="img"><img src="./image/company_logo_6.png" class="rounded-circle"  alt="" style="width: 70px;height: 70px;"></div> 
+                         <div class="content">
+                            <span class="rounded">Full Time</span>
+                            <h3>Web Designer, Graphic Designer, UI/UX Designer &amp; Art</h3>
+                         </div>
+                         <div class="a">
+                             <a href="#" class="rounded">
+                                 <i class="fas fa-bullhorn"></i>
+                                 <span>Browse Job</span>
+                             </a>
+
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+     <section class="end2">
+       <div class="conatinerr">
+         <div class="container ">
+           <div class="content p-5 ">
+             <h1 class="">Download Browse Hundreds of Jobs</h1>
+             <p>Lorem Ipsum is simply dummy text of printing and type setting industry. Lorem Ipsum been <br>industry standard dummy text ever since, when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book. It has survived not only five centuries, but also the <br>leap into electronic type setting, remaining essentially unchanged. It was popularised.</p>
+           </div>
+           <div class="cards  d-flex flex-row justify-content-between align-items-center" style="width: 700px;" >
+            <div class="box1 d-flex align-items-center  p-4 rounded ">
+              <div class="icon">
+                <i class="fab fa-windows"></i>
+              </div>
+              <div class="cntnt">
+                  <h2>Windows</h2>
+                  <span>Available Now</span>
+              </div>
+          </div>
+          <div class="box1 d-flex align-items-center  p-4 rounded ">
+            <div class="icon">
+              <i class="fab fa-apple"></i>
+            </div>
+            <div class="cntnt">
+                <h2>App Store</h2>
+                <span>Available Now</span>
+            </div>
+        </div>
+        <div class="box1 d-flex align-items-center  p-4 rounded ">
+          <div class="icon">
+            <i class="fab fa-android"></i>
+          </div>
+          <div class="cntnt">
+              <h2>Google play</h2>
+              <span>Available Now</span>
+          </div>
+      </div>
+
+           </div>
+         </div>
+       </div>
+       <div class="img">
+         <img src="./image/mockup3.png" alt="">
+       </div>
+     </section>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>

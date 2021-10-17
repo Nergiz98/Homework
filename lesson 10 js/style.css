@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(110, 148, 150, 0.527);
+}
+
+.vikipedia img {
+  width: 200px;
+  height: 200px;
+}
+
+.image img {
+  width: 500px;
+  height: 300px;
+  border: 1 solid;
+  border-radius: 10px;
+  margin-left: 500px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.image img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+button {
+  margin-left: 700px;
+  margin-top: 20px;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

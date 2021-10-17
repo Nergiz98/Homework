@@ -1,0 +1,313 @@
+.section6{
+    width: 100%;
+   
+    .full-asked{
+        width: 100%;
+        height: 800px;
+        text-align: center;
+        .asked{
+            .content9{
+                h2{
+                    display: inline-block;
+                    font-size: 40px;
+                    color: #000000;
+                    font-family: sans-serif;
+                    font-weight: 800;
+                    margin-top: 40px;
+                }
+                p{
+                    color: #000000;
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    line-height: 30px;
+                    margin-top: 40px;
+                    
+                }
+            }
+            .img-cntnt{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 40px;
+                .image{
+                    margin-right: 20px;
+                }
+                .full-cntnt{
+                    margin-top: 30px;
+                    .cntnt{
+                        display: flex;
+                        border: 1px solid rgb(214, 214, 214);
+                        margin-bottom: 30px;
+                        width: 600px;
+                        height: 80px;
+                        text-align: center;
+                        align-items: center;
+                        
+                        .icon{
+                            margin-right: 20px;
+                            margin-left: 15px;
+                            i{
+                                color: #265bfb;
+                                font-weight: 1100;
+                            }
+                        }
+                        a{
+                            width: 300px;
+                            color: #000000;
+                            font-weight: 600;
+                            font-family: sans-serif;
+
+                        }
+                        .icon2{
+                            margin-left: 200px;
+                            i{
+                               
+                                color: #265bfb;
+                                font-weight: 1100;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.section7{
+    width: 100%;
+    .full-blog{
+        background-color: aliceblue;
+        width: 100%;
+        height: 800px;
+        text-align: center;
+        .blog{
+            .content10{
+                
+                h2{
+                    display: inline-block;
+                    font-size: 40px;
+                    color: #000000;
+                    font-family: sans-serif;
+                    font-weight: 800;
+                    margin-top: 40px;
+                }
+                p{
+                    color: #000000;
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    line-height: 30px;
+                    margin-top: 40px;
+                }
+            }
+            .boxs{
+                margin-top: 50px;
+                margin-left: 150px;
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                
+                .box{
+                    border: 2px solid;
+                    border-radius: 5px;
+                    border-color: #e9e5e5;
+                    width: 30%;
+                    height: 520px;
+                    background-color: #ffffff;
+                    .image{
+                        width: 100%;
+                        border-radius: 5px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .cntnt{
+                      .read{
+                         
+                          transition: 1s;
+                          margin-left: 20px;
+                          margin-top: 20px;
+                          &:hover{
+                              transform: translateY(-10px);
+                          }
+                        a{
+                            border: 2px solid #265bfb;
+                            border-radius: 5px;
+                            width: 100px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            justify-content: center;
+                            background-color: #265bfb;
+                            color: #ffffff;
+                            
+                        }
+                      }
+                        p{
+                            color: #000000;
+                            font-size: 16px;
+                            font-family: sans-serif;
+                            line-height: 30px;
+                            margin-top: 20px;
+                            margin-left: 20px;
+                            text-align: left;
+                        }
+                           h5{
+                               margin-left: 20px;
+                            text-align: left;
+                            line-height: 20px;
+                               a{
+                                color: #000000;
+                                font-size: 20px;
+                                font-weight: 800;
+                                font-family: sans-serif;
+                                &:hover{
+                                    color: #265bfb;
+                                }
+                                
+                               }
+                           }
+                        .icon{
+                            display: flex;
+                           margin-left: 20px;
+                           margin-bottom: 30px;
+                           margin-top: 20px;
+                           .icon1{
+                               margin-right: 10px;
+                           }
+                            
+                        .icon1::after{
+                            content: "Mark Wilson";
+                            
+                        }
+                        .icon2::after{
+                            content: "July 15";
+                        }
+                      
+                    }
+                }
+                
+                }
+            }
+        }
+    }
+}
+.section8{
+    width: 100%;
+    .full-contact{
+        background-color: aliceblue;
+        width: 100%;
+        height: 600px;
+        text-align: center;
+        .contact{ 
+            margin-left: 250px;  
+            display: flex; 
+            .form{
+                margin-top: 60px;
+                form{
+                    width: 80%;
+                    .form-full{
+                       display: flex;
+                       flex-wrap: wrap;
+                       .name{
+                           width: 230px;
+                           height: 50px;
+                           border: 1px solid whitesmoke;
+                           background-color: #ffffff;
+                           border-radius: 5px;
+                           display: flex;
+                           align-items: center;
+                           justify-content: center;
+                           text-align: left;
+                           margin-right: 40px;
+                           
+                           input{
+                            outline: none;
+                               border: none;
+                               font-size: 15px;
+                           }
+                       }
+                       .email{
+                        width: 230px;
+                        height: 50px;
+                        border: 1px solid whitesmoke;
+                        background-color: #ffffff;
+                        border-radius: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: left;
+                        
+                        
+                        
+                        input{
+                         outline: none;
+                         border: none;
+                         font-size: 15px;
+                        }
+                    
+                       }
+                       .subject{
+                        width: 500px;
+                        height: 50px;
+                        border: 1px solid whitesmoke;
+                        background-color: #ffffff;
+                        border-radius: 5px;
+                        display: flex;
+                        text-align: left;
+                        margin-right: 20px;
+                        margin-top: 20px;
+                        
+                        input{
+                            margin-left: 10px;
+                            margin-top: 10px;
+                         outline: none;
+                            border: none;
+                            font-size: 15px;
+                        }
+                      }
+
+                     .textarea{
+                        width: 500px;
+                        height: 250px;
+                        border: 1px solid whitesmoke;
+                        background-color: #ffffff;
+                        border-radius: 10px;
+                        display: flex;
+                        
+                        margin-right: 20px;
+                        margin-top: 20px;
+                        
+                        
+                        textarea{
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            outline: none;
+                            border: none;
+                            font-size: 15px;
+                            resize: none;
+                            font-family: sans-serif;
+                        }
+                      }
+                      .send{
+                        margin-top: 10px;
+                          button{
+
+                              outline: none;
+                              border: none;
+                              padding: 18px 30px;
+                              text-align: center;
+                              border-radius: 5px;
+                              background-color: #265bfb;
+                              color: #fff;
+                              font-size: 15px;
+
+                          }
+                      }
+                    }
+                        
+                  
+                }
+            }   
+        }
+    }
+}
